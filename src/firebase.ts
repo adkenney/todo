@@ -15,6 +15,3 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize service
 export const db = getFirestore(app);
-
-// Reference to todo collection
-const colRef = collection(db, 'todos');
